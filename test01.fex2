@@ -1,0 +1,20 @@
+fex2
+0000 first line is the size of the stack
+0004 second line is the size of the heap
+0009 third line is the size of the code
+# program code is located at <stack-size> + <heap-size>
+ 
+0000 0040
+0001 0002
+0002 0000
+
+# the code starts here
+0004 i1.. increment register 1
+0005 z1.. clear register 1
+0006 i1.. increment register 1
+0007 r1.. decrement register 1
+0008 z0.. 
+0009 m1.. 
+0010 0000 
+0011 a210 reg[2] = reg[1] + reg[0]
+0012 e... this is a comment
