@@ -1,0 +1,17 @@
+fex2
+0000 first line is the size of the stack
+0000 second line is the size of the heap
+0004 third line is the size of the code
+#
+# lines that start with # is a comment
+# 
+# program code is located at <stack-size> + <heap-size>
+# in this example, the stack and heap are both zero
+# so the program starts at address 0000
+# it is up to the programmer (or compiler) to start 
+# the code at the correct address
+#
+0000 x... this is a comment
+0001 x... lines are 4 digit addresses
+0002 x... this is a comment
+0003 e... this is a comment
