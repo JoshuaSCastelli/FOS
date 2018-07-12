@@ -1,7 +1,7 @@
 # FOS
 
 # Description
-FOS is a fake operating system created to learn how an actual operating system works at the fundemental level. It encompases elements of loading and executing programs/processes. It also manages pages and page frames using a virtual memory management system. 
+FOS is a Functional Operating System created to learn how an actual operating system works at the fundemental level. It encompases elements of loading and executing programs/processes. It also manages pages and page frames using a virtual memory management system. 
 
 # How to run FOS
 # *Note* FOS was built on a UNIX system and may have issues with other operating systems. For optimal functionality, run on a UNIX system.
